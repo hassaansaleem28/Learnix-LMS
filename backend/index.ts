@@ -18,7 +18,10 @@ app.use(express.json({ limit: "50mb" }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["https://lms-frontend-plum-three.vercel.app"],
+    origin: [
+      "https://lms-frontend-plum-three.vercel.app",
+      "http://localhost:3000",
+    ],
     credentials: true,
   })
 );

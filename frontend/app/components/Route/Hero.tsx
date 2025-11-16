@@ -25,10 +25,10 @@ const Hero: FC<Props> = () => {
         <Loader />
       ) : (
         <div>
-          <div className="w-[95%] 800px:w-[92%] mx-auto relative z-10">
-            <div className="flex flex-col-reverse 1000px:flex-row items-center justify-between min-h-screen py-8 1000px:py-0">
+          <div className="w-[80%] 800px:w-[92%] mx-auto relative z-10">
+            <div className="flex flex-col-reverse 1000px:flex-row items-center justify-center min-h-screen py-8 1000px:py-0">
               <div className="w-full 1000px:w-[60%] flex flex-col items-center 1000px:items-start justify-center text-center 1000px:text-left 1000px:mt-0">
-                <h2 className="text-gray-900 dark:text-white text-[28px] 400px:text-[32px] 800px:text-[40px] 1000px:text-[50px] 1200px:text-[60px] 1300px:text-[70px] font-bold font-Josefin leading-tight px-3 w-full 1000px:px-0 1100px:w-[85%] 1200px:w-[80%] 1300px:w-[75%]">
+                <h2 className="text-gray-900 dark:text-white text-[28px] 400px:text-[32px] 800px:text-[40px] 1000px:text-[50px] 1200px:text-[60px] 1300px:text-[70px] font-bold font-Josefin leading-tight px-3 w-full 1000px:px-0 1100px:w-[85%] 1200px:w-[80%] 1300px:w-[75%] mt-16">
                   {data?.layout?.banner?.title}
                 </h2>
                 <br className="hidden 800px:block" />

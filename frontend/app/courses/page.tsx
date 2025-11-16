@@ -1,5 +1,5 @@
 "use client";
-import { useGetAllCoursesQuery } from "@/redux-toolkit/features/courses/coursesApi";
+import { useGetUserCoursesQuery } from "@/redux-toolkit/features/courses/coursesApi";
 import { useGetHeroDataQuery } from "@/redux-toolkit/features/layout/layoutApi";
 import { useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
@@ -15,12 +15,13 @@ type Props = {};
 const Page = (props: Props) => {
   const searchParams = useSearchParams();
   const search = searchParams?.get("title");
-  const { data, isLoading } = useGetAllCoursesQuery(undefined, {});
+  const { data, isLoading } = useGetUserCoursesQuery(undefined, {});
   const { data: categoriesData } = useGetHeroDataQuery("Categories", {});
   const [route, setRoute] = useState("Login");
   const [open, setOpen] = useState(false);
   const [courses, setCourses] = useState([]);
   const [category, setCategory] = useState("All");
+  console.log(data);
 
   useEffect(
     function () {
