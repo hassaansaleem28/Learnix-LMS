@@ -313,7 +313,7 @@ graph TD
 
 - **ts-node-dev (v2.0.0)** – Development server with auto-restart
 - **dotenv (v17.2.2)** – Environment variable management
-- **Vercel** – Deployment platform (frontend hosted at [lms-frontend-plum-three.vercel.app ↗](https://lms-frontend-plum-three.vercel.app))
+- **Vercel** – Deployment platform (frontend hosted at [lms-frontend-plum-three.vercel.app ↗](https://learnix-lms.vercel.app/))
 - **Render** – Deployment platform (backend hosted at [learnix-lms-backend.onrender.com ↗](https://learnix-lms-backend.onrender.com))
 - **Socket Server** hosted on **Render** at [learnix-socket-server-lms.onrender.com ↗](https://learnix-socket-server-lms.onrender.com).
 
