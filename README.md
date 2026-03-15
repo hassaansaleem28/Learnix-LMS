@@ -14,8 +14,6 @@ o- **Secure payment processing** via **Stripe**
 
 o- **Interactive learning features** — questions, replies, and reviews
 
-o- **Real-time notifications**
-
 o- **Administrative analytics & reporting**
 
 o- **Dynamic layout management** for frontend content
@@ -181,7 +179,7 @@ o- **Video Player & Navigation**
   o- Tabbed interface for Overview, Resources, Q&A, and Reviews.
 
 o- **Course Discovery**  
-  o- Category filtering with visual interface.  
+  o- Category filtering with a visual interface.  
   o- Responsive course cards with search functionality.  
   o- Dedicated course pages with full details and reviews.
 
@@ -208,10 +206,10 @@ o- **Community collaboration**
 ### 8- Real - time Notifications to admins
 
 o- **Course Purchased Notification**  
-  Whenever someone purchased a course then a real time notification with sound plays at admin side with all the details of user who purchased the course.
+  Whenever someone purchases a course, a real-time notification with sound plays on the admin side with all the details of the user who purchased the course.
 
 o- **New Review added Notification**  
-  Whenever a student added a review to the course then also a real time notification is added to the admin side to notify the admin about the review.
+  Whenever a student adds a review to the course, a real-time notification is also added to the admin side to notify the admin about the review.
 
 o- **Discussion in Q/A Notifications**  
   Discussion about the course in the Q/A section notifies the admin about the issues that student are facing in the course.
